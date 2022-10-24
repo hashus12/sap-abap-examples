@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Egitim fonksiyon grubu</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZHSN_EGT_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHSN_EGT_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_HSN_EGITIM_FONKSIYONLARI</FUNCNAME>
+     <SHORT_TEXT>Egitim fonksiyonu 1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_NUM1</PARAMETER>
+       <DEFAULT>10</DEFAULT>
+       <TYP>INT4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NUM2</PARAMETER>
+       <DEFAULT>2</DEFAULT>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CV_MES</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR20</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_SONUC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>DIVIDED_BY_ZERO</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bölünecek sayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NUM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bölen sayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SONUC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sonuç</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CV_MES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>20 karakter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DIVIDED_BY_ZERO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Cannot divide by zero</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

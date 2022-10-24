@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>Z_CL_EGITIM_INTERFACE</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>egitim interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MULT_NUMBERS</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>multpy numbers</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>MULT_NUMBERS</CMPNAME>
+     <SCONAME>EV_RESULT</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Doğal sayı</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MULT_NUMBERS</CMPNAME>
+     <SCONAME>IV_NUM1</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Doğal sayı</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MULT_NUMBERS</CMPNAME>
+     <SCONAME>IV_NUM2</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Doğal sayı</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>Z_CL_EGITIM_CLASS_V2</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Egitim class v2</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DIFF_NUMBERS</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>difference numbers</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DIFF_NUMBERS</CMPNAME>
+     <SCONAME>EV_RESULT</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Doğal sayı</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DIFF_NUMBERS</CMPNAME>
+     <SCONAME>IV_NUM1</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Doğal sayı</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DIFF_NUMBERS</CMPNAME>
+     <SCONAME>IV_NUM2</SCONAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Doğal sayı</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

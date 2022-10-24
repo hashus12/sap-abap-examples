@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEGT</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>Message Class Egitim</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZEGT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Programı Çarşamba günü kullanın!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZEGT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Programı &amp; günü kullanın!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZEGT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Programı &amp; ve &amp; günlerinde kullanın!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
